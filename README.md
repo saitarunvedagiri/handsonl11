@@ -27,10 +27,10 @@ The dataset was uploaded into an S3 bucket and later crawled into a structured t
 <img width="600" height="493" alt="image" src="https://github.com/user-attachments/assets/f6f4a68f-f8bc-42f7-9e2a-aad1b4f761b1" />
 
 ### 2. IAM Role
-<img width="940" height="499" alt="image" src="https://github.com/user-attachments/assets/67b39bf2-bf0c-4273-b180-0a18a28c7ce2" />
+<img width="600" height="499" alt="image" src="https://github.com/user-attachments/assets/67b39bf2-bf0c-4273-b180-0a18a28c7ce2" />
 
 ### 3. Creating S3 Buckets
-<img width="940" height="469" alt="image" src="https://github.com/user-attachments/assets/5da20b4d-d614-4e43-9c8b-02997290e714" />
+<img width="600" height="469" alt="image" src="https://github.com/user-attachments/assets/5da20b4d-d614-4e43-9c8b-02997290e714" />
 
 
 
@@ -49,7 +49,7 @@ WHERE year(date_parse("Date", '%m-%d-%y')) = 2022
 ORDER BY order_date
 LIMIT 10; ``` </pre>
 ### Output
-<img width="940" height="487" alt="image" src="https://github.com/user-attachments/assets/b529c072-36a9-445d-a8b1-1b4b0cf19936" />
+<img width="600" height="487" alt="image" src="https://github.com/user-attachments/assets/b529c072-36a9-445d-a8b1-1b4b0cf19936" />
 
 ### Query - 2
 <pre> ```SELECT 
@@ -61,7 +61,7 @@ GROUP BY "ship-state"
 ORDER BY total_negative_profit ASC
 LIMIT 10; ``` </pre>
 ### Output
-<img width="940" height="491" alt="image" src="https://github.com/user-attachments/assets/3e486e6a-3324-4082-b357-5d909306f6cb" />
+<img width="600" height="491" alt="image" src="https://github.com/user-attachments/assets/3e486e6a-3324-4082-b357-5d909306f6cb" />
 
 ### Query - 3
 <pre> ```SELECT 
@@ -73,7 +73,7 @@ GROUP BY Category
 ORDER BY avg_revenue_per_item DESC
 LIMIT 10; ``` </pre>
 ### Output
-<img width="940" height="486" alt="image" src="https://github.com/user-attachments/assets/c324229f-e975-4a86-9a5e-f00a28b7cccf" />
+<img width="600" height="486" alt="image" src="https://github.com/user-attachments/assets/c324229f-e975-4a86-9a5e-f00a28b7cccf" />
 
 ### Query - 4
 <pre> ```SELECT Category,
@@ -97,7 +97,7 @@ ORDER BY Category,
 	total_profit DESC
 LIMIT 10; ``` </pre>
 ### Output
-<img width="940" height="485" alt="image" src="https://github.com/user-attachments/assets/6c17bda0-83bd-4947-8f46-596c0cedef41" />
+<img width="600" height="485" alt="image" src="https://github.com/user-attachments/assets/6c17bda0-83bd-4947-8f46-596c0cedef41" />
 
 ### Query - 5
 <pre> ```WITH monthly_summary AS (
@@ -124,7 +124,7 @@ FROM monthly_summary
 ORDER BY month
 LIMIT 10; ``` </pre>
 ### Output
-<img width="940" height="490" alt="image" src="https://github.com/user-attachments/assets/f468f8f2-d472-4f8b-ba14-82613431e571" />
+<img width="600" height="490" alt="image" src="https://github.com/user-attachments/assets/f468f8f2-d472-4f8b-ba14-82613431e571" />
 
 
 
